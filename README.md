@@ -1,38 +1,36 @@
+<div align="center">
+
 # Harry Potter Invisibility Cloak
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=law&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
+</p>
+
+*An advanced software structure developed by Karthik Idikuda.*
+
+<br/>
+
+</div>
+
 ## Overview
-A fun computer vision application that simulates the famous Invisibility Cloak from Harry Potter using color segmentation and image processing.
+Real-time visual effect cloaking system using color segmentation.
 
-## Features
--   **Real-time Processing**: Hides the user instantly in the live video feed.
--   **Color Detection**: uses HSV color space to identify the cloak color (e.g., red or blue).
--   **Background Replacement**: Seamlessly patches the masked area with a static background frame.
+<br/>
 
-## Technology Stack
--   **Library**: OpenCV.
--   **Language**: Python.
--   **Data**: NumPy for array manipulation.
+## Architecture & Features
+- **Clean Architecture:** Ensures high maintainability and modular structure.
+- **Optimized Performance:** Built to handle intensive operations with minimal latency.
+- **Scalable Design:** Seamlessly adaptable for future functional expansions.
 
-## Usage Flow
-1.  **Capture**: System records a few seconds of the background without the user.
-2.  **Enter**: User steps into the frame with the "cloak".
-3.  **Mask**: Algorithm detects the cloak color and creates a mask.
-4.  **Invisibilize**: The masked area is replaced with the pre-recorded background.
-
-## Quick Start
-```bash
-# Clone the repository
-git clone "https://github.com/Nytrynox/Harry-Potter-Invisibility-Cloak.git"
-
-# Install dependencies
-pip install opencv-python numpy
-
-# Run the simulation
-python main.py
-```
+<br/>
 
 ## License
-MIT License
+This project operates under the **MIT License**. See the `LICENSE` file for more details.
 
-## Author
-**Karthik Idikuda**
+---
+<div align="center">
+  <br/>
+  <i>Engineered by <b>Karthik Idikuda</b></i>
+</div>
